@@ -26,4 +26,12 @@ $(document).ready(function()
 				$('#claudia a').show();
 			}
 		}, 'json');
+
+		updateAquarium = function() {
+			d = new Date();
+			$('#aquarium img').attr('src', 'claudia/aquarium.jpg?'+d.getTime());
+		}
+
+		$('#aquarium img').bind("load", function(){setTimeout(updateAquarium, 150)});
+		updateAquarium();
 	});
