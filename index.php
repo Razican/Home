@@ -17,14 +17,8 @@
 	<!-- MetisMenu CSS -->
 	<link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
 
-	<!-- Timeline CSS -->
-	<link href="dist/css/timeline.css" rel="stylesheet">
-
 	<!-- Custom CSS -->
 	<link href="dist/css/sb-admin-2.css" rel="stylesheet">
-
-	<!-- Morris Charts CSS -->
-	<link href="bower_components/morrisjs/morris.css" rel="stylesheet">
 
 	<!-- Custom Fonts -->
 	<link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -165,7 +159,7 @@
 			<!-- /.row -->
 			<div class="row">
 				<div class="col-md-offset-3 col-md-6 col-xs-12" id="aquarium">
-					<img src="claudia/aquarium.jpg" alt="Aquarium" title="Aquarium">
+					<img style="margin-bottom: 2em" src="claudia/aquarium.jpg" alt="Aquarium" title="Aquarium">
 				</div>
 			</div>
 		</div>
