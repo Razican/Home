@@ -151,7 +151,7 @@
 			</div>
 			<!-- /.row -->
 			<div class="row">
-				<div class="col-md-offset-3 col-md-6 col-xs-12" id="aquarium">
+				<div class="col-md-6 col-xs-12" id="aquarium">
 					<img style="margin-bottom: 2em" src="claudia/aquarium.jpg" alt="Aquarium" title="Aquarium">
 				</div>
 			</div>
