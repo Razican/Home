@@ -48,6 +48,9 @@
 						<li>
 							<a href="index.php"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
 						</li>
+						<li>
+							<a href="torrents"><i class="fa fa-download fa-fw"></i> Torrents</a>
+						</li>
 					</ul>
 				</div>
 				<!-- /.sidebar-collapse -->
