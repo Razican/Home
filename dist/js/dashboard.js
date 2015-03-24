@@ -5,16 +5,14 @@ $(document).ready(function()
 			{
 				$('#kate').removeClass('panel-red');
 				$('#kate').addClass('panel-green');
-				$('#kate a').show();
 			}
 		}, 'json');
 
-		$.post("checker.php?server=jacob", function(data) {
+		$.post("checker.php?server=jack", function(data) {
 			if (data.online)
 			{
-				$('#jacob').removeClass('panel-red');
-				$('#jacob').addClass('panel-green');
-				$('#jacob a').show();
+				$('#jack').removeClass('panel-red');
+				$('#jack').addClass('panel-green');
 			}
 		}, 'json');
 
@@ -23,7 +21,6 @@ $(document).ready(function()
 			{
 				$('#claudia').removeClass('panel-red');
 				$('#claudia').addClass('panel-green');
-				$('#claudia a').show();
 			}
 		}, 'json');
 

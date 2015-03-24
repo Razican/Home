@@ -16,8 +16,8 @@ function is_online($host)
 		case 'kate':
 			system("ping kate -c1 -q -w1 > /dev/null", $retval);
 		break;
-		case 'jacob':
-			system("ping jacob -c1 -q -w1 > /dev/null", $retval);
+		case 'jack':
+			system("ping jack -c1 -q -w1 > /dev/null", $retval);
 		break;
 		case 'claudia':
 			system("ping claudia -c1 -q -w1 > /dev/null", $retval);
@@ -31,8 +31,8 @@ switch ($_GET['server'])
 	case 'kate':
 		echo json_encode(array('online' => is_online('kate')));
 	break;
-	case 'jacob':
-		echo json_encode(array('online' => is_online('jacob')));
+	case 'jack':
+		echo json_encode(array('online' => is_online('jack')));
 	break;
 	case 'claudia':
 		echo json_encode(array('online' => is_online('claudia')));
