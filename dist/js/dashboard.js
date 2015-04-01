@@ -16,17 +16,9 @@ $(document).ready(function()
 			}
 		}, 'json');
 
-		$.post("checker.php?server=claudia", function(data) {
-			if (data.online)
-			{
-				$('#claudia').removeClass('panel-red');
-				$('#claudia').addClass('panel-green');
-			}
-		}, 'json');
-
 		updateAquarium = function() {
 			d = new Date();
-			$('#aquarium img').attr('src', 'claudia/aquarium.jpg?'+d.getTime());
+			$('#aquarium img').attr('src', 'img/aquarium.jpg?'+d.getTime());
 		}
 
 		$('#aquarium img').bind("load", function(){setTimeout(updateAquarium, 150)});

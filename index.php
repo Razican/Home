@@ -67,7 +67,7 @@
 			</div>
 			<!-- /.row -->
 			<div class="row">
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-green">
 						<div class="panel-heading">
 							<div class="row">
@@ -81,7 +81,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-red" id="kate">
 						<div class="panel-heading">
 							<div class="row">
@@ -95,7 +95,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
+				<div class="col-lg-4 col-md-6">
 					<div class="panel panel-red" id="jack">
 						<div class="panel-heading">
 							<div class="row">
@@ -109,25 +109,11 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="panel panel-red" id="claudia">
-						<div class="panel-heading">
-							<div class="row">
-								<div class="col-xs-3">
-									<i class="fa fa-support fa-5x"></i>
-								</div>
-								<div class="col-xs-9 text-right">
-									<div class="huge">Claudia</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
 			</div>
 			<!-- /.row -->
 			<div class="row">
 				<div class="col-md-6 col-xs-12" id="aquarium">
-					<img style="margin-bottom: 2em" src="claudia/aquarium.jpg" alt="Aquarium" title="Aquarium">
+					<img style="margin-bottom: 2em" src="aquarium.jpg" alt="Aquarium" title="Aquarium">
 				</div>
 			</div>
 		</div>
